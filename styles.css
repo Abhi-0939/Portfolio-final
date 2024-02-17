@@ -518,6 +518,15 @@ font-size: var(--small-font-size);
     transform: translateY(-50px);
     transition: .5s ease;
 }
+.service-modal-body .git{
+     font-weight: 600;
+}
+.service-modal-body .git .link{
+      color: #614fd0;
+}
+.service-modal-body .git .link:hover{
+    text-decoration: underline;
+}
 .service-modal.active .service-modal-body{
    transform: translateY(0);
 }
